@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Midwest Fishing Life</title>
+</head>
+<body>
+    <header>
+        <h1>A Guide to Midwest Fishing</h1>
+        <p>Tips and Tricks to Bass Fishing.</p>
+    </header>
+<nav>
+    <a href="knots">Knots</a>
+    <a href="lures">Lures</a>
+    <a href="lakes">lakes</a>
+</nav>
+
+<main>
+    <section id="knots">
+        <h2>Knots</h2>
+        <p>Some common knots used for Bass fishing are, The Palomar Kanot, The Uni Knot,n and the Improved Clinch Knot. Below is a image of knots you can use for fishing.</p>
+       <img src="Images/Fishing-Knots.jpg" alt="Fishing-Knots"
+    </section>
+    
+    <Section id="lures">
+        <h2>Lures</h2>
+        <p>Some common lure types are Top water, Soft Plastics, Jigs and Bladed Baits. Below are some photos of these.</p>
+        <img src="Images/Fishing lures.jpeg" alt="Fishing lures"
+    </Section>
+    <article id= "lakes">
+        <h2>Lakes</h2>
+        <p>Heres a list of some of Illinois best lake for Bass fishing. Lake Shelbyville is very popular in Illinois attracting fishermen from all over the country.</p>
+
+        <ol>
+            <li>Rend Lake (18,900 acres of water)</li>
+            <li>Lake Shelbyville (11,100 acres of water)</li>
+            <li>Clinton Lake (4,900 acres of water)</li>
+            <li>Newton Lake (1,750 acres of water)</li>
+        </ol>
+    </article>
+    <h1>Mailing List Signup</h1>
+
+    <form action="/mailinglist.php">
+     <fieldset
+     ><ol>
+        <li>
+            <label for="mailinglist">Mailing List</label>
+
+             <option value="question">Would like to be apart of the clubs mailing list?</option>
+             <li>
+                <label for="firstlast">Full Name:</label>
+                <input type="text" name="fullname" id="firstlast"></li>
+            <li>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"></li>
+            </ol>
+    <input type="button" value="submit">
+    </fieldset>
+</form>
+<section>
+<h1>Register for weekly fishing clubs held every Wednesday and Saturday.</h1>
+
+                <h2>Event Schhedule</h2>
+
+<table>
+    <caption>Upcoming Dates</caption>
+    <thead>
+   <tr>
+    <th>Event</th>
+    <th>Date</th>
+    <th>Location</th>
+    <th>Start Time</th>  
+</tr>
+</thead>
+
+<tbody>
+  <tr>
+   <td>Club Meeting 1</td>
+   <td>September 22</td>
+   <td>Lake Shelbyville, Shelbyville,Il.</td>
+   <td>4:00pm</td>
+   </tr>
+   <tr>
+    <td>Club Meeting 2</td>
+    <td>September 26</td>
+    <td>Newton Lake, Newton, Il.</td>
+    <td>4:00pm</td>
+  </tr>
+   <tr>
+    <td>Annual Fishing Trip</td>
+    <td>October 18</td>
+    <td>Chickamauga Lake, Dayton,TN</td>
+    <td>5:00am depature return october 25</td>
+  </tr>
+  </tbody>
+ </table>
+</section>
+
+<section>
+    <h2>Register Here</h2>
+
+    <form>
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname"
+
+        <label for="event"> Choose an Event:</label>
+        <select id="event" name="event">
+            <option value="club meeting 1">Club Meeting 1</option>
+            <option value="club meeting 2">Club meeting 2</option>
+            <option value="annual fishing trip">Annual Fishing Trip</option>
+            <option value="all">All</option>
+        </select>
+        <p>Preferred Contact Method:</p>
+
+        <input type="radio" id="contact-email" name="contact-method" value="email">
+
+        <label for="contact-email">Email</label>
+
+        <input type="radio" id="contact-phone" name="contact-method" value="phone"
+
+        <label for="contact-phone">Phone</label>
+        <input type="text" id="contact-phone" name="contact-phone"</label>
+    <br>
+
+    <label for="messages">messages</label>
+    <textarea id="messages" name="messages"></textarea>
+
+    <button type="submit">submit</button>
+
+</form>
+ </section>
+</main>
+
+
+</main>
+<footer>
+    <p>Page Created by Brandon Plumb</p>
+</footer>
+</body>
+</html>
